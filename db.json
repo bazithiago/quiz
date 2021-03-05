@@ -3,27 +3,39 @@
     "description": "Descrição do quiz aqui",
     "questions": [
         {
-            "image": "",
+            "image": "https://restcountries.eu/data/bra.svg",
             "title": "Questão número 01",
             "description": "Descrição da questão número #01",
             "answer": 1,
             "alternatives": [
-                "Alternativa A",
-                "Alternativa B",
-                "Alternativa C",
-                "Alternativa D"
+                "Alternativa A1",
+                "Alternativa B1",
+                "Alternativa C1",
+                "Alternativa D1"
             ]
         },
         {
-            "image": "",
+            "image": "https://restcountries.eu/data/usa.svg",
             "title": "Questão número 02",
             "description": "Descrição da questão número #02",
             "answer": 2,
             "alternatives": [
-                "Alternativa A",
-                "Alternativa B",
-                "Alternativa C",
-                "Alternativa D"
+                "Alternativa A2",
+                "Alternativa B2",
+                "Alternativa C2",
+                "Alternativa D2"
+            ]
+        },
+        {
+            "image": "https://restcountries.eu/data/fra.svg",
+            "title": "Questão número 03",
+            "description": "Descrição da questão número #03",
+            "answer": 2,
+            "alternatives": [
+                "Alternativa A3",
+                "Alternativa B3",
+                "Alternativa C3",
+                "Alternativa D3"
             ]
         }
     ],

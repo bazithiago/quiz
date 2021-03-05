@@ -19,8 +19,7 @@ const Button = styled.button`
     cursor: not-allowed;
     };
 
-    &:hover,
-    &:focus {
+    &:hover {
     opacity: .5;
     };
   

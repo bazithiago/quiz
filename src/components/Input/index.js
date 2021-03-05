@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-const Input = styled.input`
+const InputBase = styled.input`
     margin: 32px 0 24px;
     height: 40px;
     width: 100%;
@@ -16,4 +16,15 @@ const Input = styled.input`
     }
 `
 
-export default Input;
+export default function Input({ onChange, placeholder, ...props }){
+    return(
+        <>
+            <InputBase 
+                onChange={onChange} 
+                placeholder={placeholder}
+                {...props}
+            />
+        </>
+    );
+
+};
